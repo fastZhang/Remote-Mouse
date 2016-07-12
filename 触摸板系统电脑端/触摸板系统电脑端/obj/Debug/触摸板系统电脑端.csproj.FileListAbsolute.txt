@@ -1,0 +1,27 @@
+C:\Users\ZL\Desktop\毕业设计\触摸板系统电脑端\触摸板系统电脑端\bin\Debug\触摸板系统电脑端.exe.config
+C:\Users\ZL\Desktop\毕业设计\触摸板系统电脑端\触摸板系统电脑端\bin\Debug\触摸板系统电脑端.exe
+C:\Users\ZL\Desktop\毕业设计\触摸板系统电脑端\触摸板系统电脑端\bin\Debug\触摸板系统电脑端.pdb
+C:\Users\ZL\Desktop\毕业设计\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.csprojResolveAssemblyReference.cache
+C:\Users\ZL\Desktop\毕业设计\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.Properties.Resources.resources
+C:\Users\ZL\Desktop\毕业设计\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.csproj.GenerateResource.Cache
+C:\Users\ZL\Desktop\毕业设计\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.exe
+C:\Users\ZL\Desktop\毕业设计\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.pdb
+C:\Users\ZL\Desktop\毕业设计\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.Form1.resources
+H:\毕业设计 毕业论文\毕业设计\触摸板系统电脑端\触摸板系统电脑端\bin\Debug\触摸板系统电脑端.exe.config
+H:\毕业设计 毕业论文\毕业设计\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.exe
+H:\毕业设计 毕业论文\毕业设计\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.pdb
+H:\毕业设计 毕业论文\毕业设计\触摸板系统电脑端\触摸板系统电脑端\bin\Debug\触摸板系统电脑端.exe
+H:\毕业设计 毕业论文\毕业设计\触摸板系统电脑端\触摸板系统电脑端\bin\Debug\触摸板系统电脑端.pdb
+H:\毕业设计 毕业论文\毕业设计\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.csprojResolveAssemblyReference.cache
+H:\毕业设计 毕业论文\毕业设计\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.Form1.resources
+H:\毕业设计 毕业论文\毕业设计\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.Properties.Resources.resources
+H:\毕业设计 毕业论文\毕业设计\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.csproj.GenerateResource.Cache
+C:\Users\ZL\Desktop\触摸板系统电脑端\触摸板系统电脑端\bin\Debug\触摸板系统电脑端.exe.config
+C:\Users\ZL\Desktop\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.exe
+C:\Users\ZL\Desktop\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.pdb
+C:\Users\ZL\Desktop\触摸板系统电脑端\触摸板系统电脑端\bin\Debug\触摸板系统电脑端.exe
+C:\Users\ZL\Desktop\触摸板系统电脑端\触摸板系统电脑端\bin\Debug\触摸板系统电脑端.pdb
+C:\Users\ZL\Desktop\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.csprojResolveAssemblyReference.cache
+C:\Users\ZL\Desktop\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.Form1.resources
+C:\Users\ZL\Desktop\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.Properties.Resources.resources
+C:\Users\ZL\Desktop\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.csproj.GenerateResource.Cache

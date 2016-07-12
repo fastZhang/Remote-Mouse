@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">触摸板手机端</string>
+    
+    <string name="on_searching">正在搜索</string>
+    
+    <string name="click_start_searching">点击开始搜索电脑</string>
+    <string name="click_stop_searching">正在搜索点击停止</string>
+    
+    <string name="none_computer">周围没有电脑</string>
+
+</resources>

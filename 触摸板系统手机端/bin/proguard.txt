@@ -1,0 +1,12 @@
+# view AndroidManifest.xml #generated:36
+-keep class com.zcl.board.ControlActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:22
+-keep class com.zcl.board.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:31
+-keep class com.zcl.board.service.MyService { <init>(...); }
+
+# view res/layout/activity_control.xml #generated:7
+-keep class com.zcl.board.view.ControlView { <init>(...); }
+

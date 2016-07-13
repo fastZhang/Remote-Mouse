@@ -17,19 +17,19 @@ import com.zcl.board.service.MyService;
 import com.zcl.board.view.ControlView;
 
 /**
- * ¿ØÖÆÒ³Ãæ
- * ½øÈë¿ØÖÆÒ³Ãæ´ò¿ªÁËĞÄÌø°üµÄthread
+ * æ§åˆ¶é¡µé¢
+ * è¿›å…¥æ§åˆ¶é¡µé¢æ‰“å¼€äº†å¿ƒè·³åŒ…çš„thread
  * @author ZL
- * @version 2016-5-25 ÉÏÎç9:42:31
+ * @version 2016-5-25 ä¸Šåˆ9:42:31
  */
 public class ControlActivity extends Activity {
 
 	private ControlView v_control;
-	/** µçÄÔ¶Ë¿ÚºÍip */
+	/** ç”µè„‘ç«¯å£å’Œip */
 	private InetSocketAddress mSocketAddress;	
-	/** ±êÖ¾µçÄÔ¶ËÔÚÏß*/
+	/** æ ‡å¿—ç”µè„‘ç«¯åœ¨çº¿*/
 	private boolean isOnLine = true;
-	//MouseActionListener´ò¿ªÁËĞÄÌø°üµÄthread
+	//MouseActionListeneræ‰“å¼€äº†å¿ƒè·³åŒ…çš„thread
 	private MouseActionListener mMouseActionListener;
 	
 	private Handler mHandler = new Handler(){
@@ -43,10 +43,10 @@ public class ControlActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		requestWindowFeature(Window.FEATURE_NO_TITLE);
 		setContentView(R.layout.activity_control);
-		// »ñÈ¡ĞòÁĞ»¯µÄÎÄ¼şÀàĞÍ
+		// è·å–åºåˆ—åŒ–çš„æ–‡ä»¶ç±»å‹
 		Intent intent = getIntent();
 		mSocketAddress = (InetSocketAddress) intent.getSerializableExtra(Constant.computerSocketAddress);
-		//±êÖ¾½øÈë£¬ÓÃÓÚÍ£Ö¹BtnSearchClickListenerËÑË÷µÄÑ­»·
+		//æ ‡å¿—è¿›å…¥ï¼Œç”¨äºåœæ­¢BtnSearchClickListeneræœç´¢çš„å¾ªç¯
 		Constant.isInControlActivity = true;
 
 		initView();
@@ -57,7 +57,7 @@ public class ControlActivity extends Activity {
 	@SuppressLint("NewApi") @Override
 	public void onBackPressed() {
 	 	mMouseActionListener = null;
-    	isOnLine =false;
+    		isOnLine =false;
 		super.onBackPressed();
 	}
 	
@@ -71,7 +71,7 @@ public class ControlActivity extends Activity {
 	}
 
 	/**
-	 * ¼ì²âĞÄÌø°üµÄ·´À¡£¬ÅĞ¶ÏÏÂÒ»´ÎĞÄÌø°üµÄ·¢ËÍ
+	 * æ£€æµ‹å¿ƒè·³åŒ…çš„åé¦ˆï¼Œåˆ¤æ–­ä¸‹ä¸€æ¬¡å¿ƒè·³åŒ…çš„å‘é€
 	 */
 	private void startNextHeartBeatTimeListener() {
 
@@ -79,7 +79,7 @@ public class ControlActivity extends Activity {
 			@Override
 			public void run() {
 				while (isOnLine) {
-					//Ã¿´Î½Óµ½µçÄÔ¶ËµÄĞÅÏ¢nextHeartBeatTimeÖØÖÃÎª10£¬µİ¼õ10ÃëÅĞ¶Ï£¬10ÃëÖ®ºóµçÄÔ¶ÏÏß
+					//æ¯æ¬¡æ¥åˆ°ç”µè„‘ç«¯çš„ä¿¡æ¯nextHeartBeatTimeé‡ç½®ä¸º10ï¼Œé€’å‡10ç§’åˆ¤æ–­ï¼Œ10ç§’ä¹‹åç”µè„‘æ–­çº¿
 					timeTask();	
 				}
 			}
@@ -87,7 +87,7 @@ public class ControlActivity extends Activity {
 	}
 	
 	/**
-	 * Ê±¼äÅĞ¶Ï
+	 * æ—¶é—´åˆ¤æ–­
 	 */
 	private void timeTask() {
 		synchronized (this) {
@@ -95,7 +95,7 @@ public class ControlActivity extends Activity {
 				if (MyService.nextHeartBeatTime > 0) {
 					MyService.nextHeartBeatTime--;
 				} else {
-					//µçÄÔ¶ËÍË³öÁË
+					//ç”µè„‘ç«¯é€€å‡ºäº†
 					isOnLine =false;
 					mHandler.sendEmptyMessage(0);
 				}
@@ -110,21 +110,21 @@ public class ControlActivity extends Activity {
 	}
 	
 	/**
-	 * ÌáÊ¾µçÄÔ¶Ë¶ÌÏß
+	 * æç¤ºç”µè„‘ç«¯çŸ­çº¿
 	 */
 	private void offLine() {
 
         AlertDialog ad=new AlertDialog.Builder(this).create();  
-        ad.setTitle("¶Ï¿ªÌáÊ¾");  
-        ad.setMessage("µçÄÔ¶Ë¶Ï¿ª");  
-        ad.setButton("È·¶¨", new DialogInterface.OnClickListener() {                
+        ad.setTitle("æ–­å¼€æç¤º");  
+        ad.setMessage("ç”µè„‘ç«¯æ–­å¼€");  
+        ad.setButton("ç¡®å®š", new DialogInterface.OnClickListener() {                
             @Override  
             public void onClick(DialogInterface dialog, int which) {  
             	mMouseActionListener = null;
             	isOnLine =false;
-            	//ÍË³ö³ÌĞò
-            	android.os.Process.killProcess(android.os.Process.myPid());    //»ñÈ¡PID 
-            	System.exit(0);   //³£¹æjava¡¢c#µÄ±ê×¼ÍË³ö·¨£¬·µ»ØÖµÎª0´ú±íÕı³£ÍË³ö
+            	//é€€å‡ºç¨‹åº
+            	android.os.Process.killProcess(android.os.Process.myPid());    //è·å–PID 
+            	System.exit(0);   //å¸¸è§„javaã€c#çš„æ ‡å‡†é€€å‡ºæ³•ï¼Œè¿”å›å€¼ä¸º0ä»£è¡¨æ­£å¸¸é€€å‡º
             }  
         });  
         ad.show();	

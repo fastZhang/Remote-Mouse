@@ -56,8 +56,8 @@ public class ControlActivity extends Activity {
 	
 	@SuppressLint("NewApi") @Override
 	public void onBackPressed() {
-	 	mMouseActionListener = null;
-    		isOnLine =false;
+		isOnLine =false;
+		mMouseActionListener = null;
 		super.onBackPressed();
 	}
 	

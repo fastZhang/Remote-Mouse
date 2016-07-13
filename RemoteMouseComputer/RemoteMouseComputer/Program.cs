@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Threading;
 
-namespace 触摸板系统电脑端
+namespace RemoteMouseComputer
 {
     static class Program
     {

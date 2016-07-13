@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using Microsoft.Win32;
 
 //命名空间
-namespace 触摸板系统电脑端
+namespace RemoteMouseComputer
 {
     
     //1 该类处理窗口事件，切换自启动，退出功能，

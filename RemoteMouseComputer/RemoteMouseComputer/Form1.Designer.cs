@@ -1,4 +1,4 @@
-﻿namespace 触摸板系统电脑端
+﻿namespace RemoteMouseComputer
 {
     partial class Form1
     {

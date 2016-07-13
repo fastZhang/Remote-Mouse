@@ -7,8 +7,8 @@
     <ProjectGuid>{BDD96E4F-6F54-4DAC-9103-A6F4F4A23DC8}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>触摸板系统电脑端</RootNamespace>
-    <AssemblyName>触摸板系统电脑端</AssemblyName>
+    <RootNamespace>RemoteMouseComputer</RootNamespace>
+    <AssemblyName>RemoteMouseComputer</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -72,6 +72,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="app.manifest">
       <SubType>Designer</SubType>

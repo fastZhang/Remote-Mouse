@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace 触摸板系统电脑端
+namespace RemoteMouseComputer
 {   
     //枚举指令协议类型
     public enum Instruction

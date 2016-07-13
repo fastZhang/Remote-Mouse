@@ -25,3 +25,6 @@ C:\Users\ZL\Desktop\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\
 C:\Users\ZL\Desktop\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.Form1.resources
 C:\Users\ZL\Desktop\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.Properties.Resources.resources
 C:\Users\ZL\Desktop\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.csproj.GenerateResource.Cache
+F:\MyRepository\fast-big\触摸板系统电脑端\触摸板系统电脑端\bin\Debug\触摸板系统电脑端.exe.config
+F:\MyRepository\fast-big\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.exe
+F:\MyRepository\fast-big\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\触摸板系统电脑端.pdb

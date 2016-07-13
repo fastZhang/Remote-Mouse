@@ -1,0 +1,17 @@
+F:\MyRepository\fast-big\触摸板系统电脑端\触摸板系统电脑端\bin\Debug\RemoteMouseComputer.exe.config
+F:\MyRepository\fast-big\触摸板系统电脑端\触摸板系统电脑端\bin\Debug\RemoteMouseComputer.exe
+F:\MyRepository\fast-big\触摸板系统电脑端\触摸板系统电脑端\bin\Debug\RemoteMouseComputer.pdb
+F:\MyRepository\fast-big\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\RemoteMouseComputer.csprojResolveAssemblyReference.cache
+F:\MyRepository\fast-big\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\RemoteMouseComputer.Form1.resources
+F:\MyRepository\fast-big\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\RemoteMouseComputer.Properties.Resources.resources
+F:\MyRepository\fast-big\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\RemoteMouseComputer.csproj.GenerateResource.Cache
+F:\MyRepository\fast-big\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\RemoteMouseComputer.exe
+F:\MyRepository\fast-big\触摸板系统电脑端\触摸板系统电脑端\obj\Debug\RemoteMouseComputer.pdb
+F:\MyRepository\fast-big\触摸板系统电脑端\RemoteMouseComputer\bin\Debug\RemoteMouseComputer.exe.config
+F:\MyRepository\fast-big\触摸板系统电脑端\RemoteMouseComputer\bin\Debug\RemoteMouseComputer.exe
+F:\MyRepository\fast-big\触摸板系统电脑端\RemoteMouseComputer\bin\Debug\RemoteMouseComputer.pdb
+F:\MyRepository\fast-big\触摸板系统电脑端\RemoteMouseComputer\obj\Debug\RemoteMouseComputer.Form1.resources
+F:\MyRepository\fast-big\触摸板系统电脑端\RemoteMouseComputer\obj\Debug\RemoteMouseComputer.Properties.Resources.resources
+F:\MyRepository\fast-big\触摸板系统电脑端\RemoteMouseComputer\obj\Debug\RemoteMouseComputer.csproj.GenerateResource.Cache
+F:\MyRepository\fast-big\触摸板系统电脑端\RemoteMouseComputer\obj\Debug\RemoteMouseComputer.exe
+F:\MyRepository\fast-big\触摸板系统电脑端\RemoteMouseComputer\obj\Debug\RemoteMouseComputer.pdb

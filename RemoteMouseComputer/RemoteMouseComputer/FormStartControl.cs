@@ -8,7 +8,7 @@ using System.Net.Sockets;
 using System.Net;
 using System.Threading;
 
-namespace 触摸板系统电脑端
+namespace RemoteMouseComputer
 {
     //主控制类
     class FormStartControl

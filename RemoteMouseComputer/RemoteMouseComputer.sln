@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "触摸板系统电脑端", "触摸板系统电脑端\触摸板系统电脑端.csproj", "{BDD96E4F-6F54-4DAC-9103-A6F4F4A23DC8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteMouseComputer", "RemoteMouseComputer\RemoteMouseComputer.csproj", "{BDD96E4F-6F54-4DAC-9103-A6F4F4A23DC8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
